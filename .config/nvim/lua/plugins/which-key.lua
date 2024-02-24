@@ -3,8 +3,6 @@ return {
 	keys = { "<leader>" },
 	config = function()
 		local which_key = require("which-key")
-        vim.o.timeout = true
-        vim.o.timeoutlen = 100
 
 		which_key.setup({
 			plugins = {
@@ -59,22 +57,22 @@ return {
 		}
 
 		local groups = {
-			b = { name = "buffer" },
-			s = { name = "search" },
-			-- g = { name = "git" },
-			r = { name = "refactor" },
-			l = { name = "lsp" },
-			d = { name = "debug" },
-			m = { name = "macro/markdown" },
-			n = { name = "notifications" },
-			["<tab>"] = { name = "tabs" },
-			[";"] = { name = "test" },
-			["'"] = { name = "marks" },
-			["/"] = { name = "search" },
-			["/g"] = { name = "git" },
-			["/gd"] = { name = "diff" },
-			["["] = { name = "previous" },
-			["]"] = { name = "next" },
+			-- b = { name = "buffer" },
+			-- s = { name = "search" },
+			-- -- g = { name = "git" },
+			-- r = { name = "refactor" },
+			-- l = { name = "lsp" },
+			-- d = { name = "debug" },
+			-- m = { name = "macro/markdown" },
+			-- n = { name = "notifications" },
+			-- ["<tab>"] = { name = "tabs" },
+			-- [";"] = { name = "test" },
+			-- ["'"] = { name = "marks" },
+			-- ["/"] = { name = "search" },
+			-- ["/g"] = { name = "git" },
+			-- ["/gd"] = { name = "diff" },
+			-- ["["] = { name = "previous" },
+			-- ["]"] = { name = "next" },
 		}
 
 		which_key.register(groups, opts)
