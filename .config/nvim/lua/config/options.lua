@@ -29,4 +29,7 @@ vim.opt.splitright = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.virtualedit = "block"
 
-
+-- which-key options
+vim.o.timeout = true
+vim.o.timeoutlen = 300
+vim.o.mouse = ''
