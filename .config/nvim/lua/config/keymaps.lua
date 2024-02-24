@@ -1,5 +1,5 @@
 -- NeoTree
-vim.keymap.set("n", "<leader>m", ":Neotree filesystem reveal left<CR>", {})
+vim.keymap.set("n", "<leader>m", ":Neotree filesystem reveal left<CR>", {desc = "NeoTree"}) 
 
 -- Telescope
 vim.keymap.set("n", "<leader>ff", function() require("telescope.builtin").find_files() end, {desc = "[S]earch [F]iles"})
@@ -15,3 +15,9 @@ vim.keymap.set("n", "<C-l>", "<C-w>l", opts) -- Navigate Right
 vim.keymap.set("n", "<leader>sv", ":vsplit<CR>", opts) -- Split Vertically
 vim.keymap.set("n", "<leader>sh", ":split<CR>", opts) -- Split Horizontally
 vim.keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>", opts) --Toggle Minimize
+
+-- LSP
+vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {desc = "goto definition"}, opts)
+vim.keymap.set({ 'n', 'v' }, '<space>ca', vim.lsp.buf.code_action, {desc = "Code Actions"}, opts)
+
