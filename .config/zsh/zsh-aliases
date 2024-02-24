@@ -39,8 +39,8 @@ alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
 
 # list
-alias ls="exa -al --color=always --group-directories-first"
-alias l.="exa -a | egrep '^\.'"
+alias ls="eza -al --color=always --group-directories-first"
+alias l.="eza -a | egrep '^\.'"
 
 # pacman
 alias pin="sudo pacman -S --color auto"
