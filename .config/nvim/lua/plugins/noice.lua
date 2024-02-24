@@ -29,6 +29,9 @@ return {
         inc_rename = true,
       },
     },
+    dependencies = {
+        "MunifTanjim/nui.nvim",
+    },
     -- stylua: ignore
     keys = {
       { "<S-Enter>", function() require("noice").redirect(vim.fn.getcmdline()) end, mode = "c", desc = "Redirect Cmdline" },
