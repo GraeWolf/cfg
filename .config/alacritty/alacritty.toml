@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/themes/themes/kanagawa_wave.toml"]
+import = ["~/.config/alacritty/themes/themes/pastel_dark.toml"]
 
 [shell]
 program = "/bin/zsh"
