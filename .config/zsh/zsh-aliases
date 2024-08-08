@@ -42,10 +42,17 @@ alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate ar
 alias ls="eza -al --color=always --group-directories-first"
 alias l.="eza -a | egrep '^\.'"
 
+# cat alternative
+alias cat="bat"
+
 # pacman
 alias pin="sudo pacman -S --color auto"
 alias update="sudo pacman -Syyu"
 alias pss="pacman -Ss"
+
+# Fedora package management
+alias dup="sudo dnf update"
+alias din="sudo dnf install"
 
 # Dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
