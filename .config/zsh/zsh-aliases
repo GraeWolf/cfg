@@ -53,6 +53,7 @@ alias pss="pacman -Ss"
 # Fedora package management
 alias dup="sudo dnf update"
 alias din="sudo dnf install"
+alias dss="dnf search"
 
 # Dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
