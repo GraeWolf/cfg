@@ -13,10 +13,10 @@ opacity = 0.95
 history = 100000
 
 [font]
-normal = { family = "JetBrains Mono", style = "Regular" }
-italic = { family = "JetBrains Mono", style = "Regular" }
-bold_italic = { family = "JetBrains Mono", style = "Regular" }
-size = 16.0
+normal = { family = "Cascadia Code NF", style = "Regular" }
+italic = { family = "Cascadia Code NF", style = "Regular" }
+bold_italic = { family = "Cascadia Code NF", style = "Regular" }
+size = 14.0
 
 [selection]
 save_to_clipboard = true
