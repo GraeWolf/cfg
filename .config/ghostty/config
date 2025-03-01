@@ -1,5 +1,4 @@
 theme = Dracula
-background-opacity = 0.8
-window-decoration = false
-
+background-opacity = 1.0
+window-decoration = true
 

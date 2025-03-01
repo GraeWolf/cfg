@@ -67,3 +67,10 @@ alias sb="cd ~/Documents/SecondBrain && nvim"
 
 # Python venv development projecsts directory
 alias pydev="cd ~/Dev/projects/python/venvs/projects"
+
+# Gentoo Aliases
+alias gin="sudo emerge --ask"
+alias grb="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias gensync="sudo emerge --sync"
+alias gup="sudo emerge --update --deep --newuse @world"
+alias glean="sudo emerge --ask --depclean"
