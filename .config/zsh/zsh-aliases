@@ -53,6 +53,7 @@ alias pss="pacman -Ss"
 # Fedora package management
 alias dup="sudo dnf update"
 alias din="sudo dnf install"
+alias dun="sudo dnf remove"
 alias dss="dnf search"
 
 # Dotfiles
