@@ -13,15 +13,12 @@ local config = function()
 		},
 		ensure_installed = {
 			"cpp",
-            "markdown",
+			"markdown",
 			"json",
 			"yaml",
-            "toml",
-			"html",
-			"css",
+			"toml",
 			"bash",
 			"lua",
-			"dockerfile",
 			"gitignore",
 			"python",
 		},
@@ -33,8 +30,8 @@ local config = function()
 		incremental_selection = {
 			enable = true,
 			keymaps = {
-				init_selection = "<C-s>",
-				node_incremental = "<C-s>",
+				init_selection = "<Enter>",
+				node_incremental = "<Enter>",
 				scope_incremental = false,
 				node_decremental = "<BS>",
 			},
