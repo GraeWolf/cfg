@@ -2,7 +2,7 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
+    "height": 32, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
@@ -13,6 +13,7 @@
         "hyprland/window"
     ],
     "modules-right": [
+        "custom/sleep-lock",
         "idle_inhibitor",
         "custom/weather",
         "network",
@@ -55,6 +56,10 @@
             "locked": "",
             "unlocked": ""
         }
+    },
+    "custom/sleep-lock": {
+        "on-click": "${HOME}/.config/waybar/scripts/sleep-lock.sh",
+        "format": "󰒲 {}"
     },
     "idle_inhibitor": {
         "format": "{icon}",
