@@ -1,0 +1,25 @@
+[global]
+    monitor = HDMI-A-1
+    follow = none
+    width = (800, 1200)
+    height = 150
+    notification_limit = 0
+    origin = top-right
+    indicate_hidden = true
+    transparency = 0
+    font = JetBrains Mono 11
+
+[base16_low]
+    msg_urgency = low
+    background = "#3B4252"
+    foreground = "#4C566A"
+
+[base16_normal]
+    msg_urgency = normal
+    background = "#434C5E"
+    foreground = "#E5E9F0"
+
+[base16_critical]
+    msg_urgency = critical
+    background = "#88C0D0"
+    foreground = "#ECEFF4"
